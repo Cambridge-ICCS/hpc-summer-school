@@ -1,6 +1,6 @@
 ---
 title: "Introduction to High Performance Computing"
-subtitle: "ICCS Summer School 2025"
+subtitle: "ICCS Summer School 2026"
 output-file: index
 bibliography: references.bib
 format:
@@ -122,7 +122,7 @@ The LINPACK benchmarks appeared initially as part of the LINPACK user's manual. 
 Got to the Top500 site at https://top500.org/
 
 - Use the sublist generator to find the largest HPC systems in your country
-- What is the ratio of Rmax performance between the number 1 system in June 1993 and the June 2025 number 1 
+- What is the ratio of Rmax performance between the number 1 system in June 1993 and the June 2026 number 1 
 
 ## Cluster architecture 
 
