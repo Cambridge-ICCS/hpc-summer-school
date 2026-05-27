@@ -557,12 +557,13 @@ Donald Knuth (1974)
 
 ## IO profiling with Darshan
 
-## Green HPC
+## Green HPC {visibility="hidden"}
 
   - Green500 - Top500 divided by energy
   - Calculators:
     - [Green Algorithms](https://www.green-algorithms.org/)
     - [How Much is Enough](https://chryswoods.github.io/howmuchisenough/)
+  - The Carpentries [Green software use on HPC](https://carpentries-incubator.github.io/green-software-hpc/index.html)
 
 Advice:
 
@@ -570,7 +571,7 @@ Advice:
 - Use reduced precision
 - Design experiments well
 
-## Exercise
+## Exercise {visibility="hidden"}
 
 - Go to the [Green Algorithms](https://www.green-algorithms.org/) website
 - Use the calculator to look at
