@@ -206,8 +206,8 @@ examples:
 
 ## The Command Line resources
 
-- [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
-- [https://wizardzines.com/comics/every-core-unix-program-i-use/](https://wizardzines.com/comics/every-core-unix-program-i-use/)
+- [swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
+- [wizardzines.com/comics/every-core-unix-program-i-use/](https://wizardzines.com/comics/every-core-unix-program-i-use/)
 
 
 ## The Scheduler
