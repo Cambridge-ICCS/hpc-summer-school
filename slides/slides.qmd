@@ -58,7 +58,7 @@ Now, AI
 
 ## Floating Point
 
-Computer math is not people math
+Computer maths is not people maths
 
 ```
 >>> 0.1 + 0.2
@@ -166,7 +166,7 @@ Compute nodes sometimes have on node disk storage.
 
 Ther is normally some large storage that is visible to all the compute nodes.
 
-Since this is a shared resource an anti-social user can affect the performnace of other users.
+Since this is a shared resource an anti-social user can affect the performance of other users.
 
 ## Interconnect
 
@@ -177,6 +177,7 @@ Usually faster (higher bandwidth, lower latency) than comoddity ethernet network
 It's what makes a supercomputer super.
 
 examples:
+
 - Infiniband
 - Omnipath
 - Slingshot
@@ -205,8 +206,8 @@ examples:
 
 ## The Command Line resources
 
-- https://swcarpentry.github.io/shell-novice/
-- https://wizardzines.com/comics/every-core-unix-program-i-use/
+- [swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
+- [wizardzines.com/comics/every-core-unix-program-i-use/](https://wizardzines.com/comics/every-core-unix-program-i-use/)
 
 
 ## The Scheduler
@@ -258,7 +259,7 @@ To change this you can add an extra directive ``#SBATCH --output=``
 
 - Write a job script to echo "hello world"
 - Submit the job with ``sbatch``
-- See it in the queue with ``squeue --me`
+- See it in the queue with ``squeue --me``
 - Find the output in te directory you submitted it from ``ls -lrt``
 - Examine the output using ``cat ``
 
@@ -410,7 +411,7 @@ gcc -fopenmp -O3 pi.c -o pi.exe
 - Process pinning
 - NUMA
   - Non-unifrom memory architecture
-  - differing latencies from cores to main memory
+  - Differing latencies from cores to main memory
 - First touch placement policy.
 
 ---
@@ -524,7 +525,7 @@ $S = 1 / (1 - p + p/s)$, where…
   - available on most HPC systems
   - works with C, C++, Fortran, Rust...
   - Command-line interface
-- Debugging Course coming up next in this room!
+- [Debugging Course](https://github.com/Cambridge-ICCS/debugging-workshop) from Summer School 2025 ([video](https://youtu.be/Oo3cPIckI0Y?si=tFr1UYZLtP8vkppH)
 
 # Profiling
 
@@ -621,4 +622,4 @@ For more information we can be reached at:
 
 ::::
 
-You can also contact the ICCS, [make a resource allocation request](https://iccs.cam.ac.uk/resources-vesri-members/resource-allocation-process), or visit us at the [Summer School RSE Helpdesk](https://docs.google.com/spreadsheets/d/1WKZxp3nqpXrIRMRkfFzc71sos-UD-Uy1zeab0c1p7Xc/edit#gid=0).
+You can also contact the ICCS, [make a resource allocation request](https://iccs.cam.ac.uk/resources-vesri-members/resource-allocation-process), or visit us at the [Summer School RSE Helpdesk](https://docs.google.com/spreadsheets/d/1v8y2GodI9JZoHrFRpLW2tD135MurDBMIcr-ArBFIT3A).
