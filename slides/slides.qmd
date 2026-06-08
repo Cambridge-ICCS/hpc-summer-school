@@ -560,17 +560,19 @@ Donald Knuth (1974)
 
 - We introduce a small simple OpenMP [example](https://github.com/niravshah241/cpp_profiler_example/tree/matrix_vector_multiplication). Precisely, we introduce dense-Matrix vector multiplication example, where we implement element wise multiplication.
 - We consider parallelization across row indices using multiple threads.
-- Compilation step (Notice the use of scorep-g++ instead of g++)
+- Compilation step (Notice the use of \texttt{scorep-g++} instead of \texttt{g++})
 ```bash
 scorep-g++ -c -fopenmp main.cpp generate_random_matrix.cpp matrix_multiply.cpp
 ```
-- Linking step  (Notice the use of scorep-g++ instead of g++)
+- Linking step  (Notice the use of \texttt{scorep-g++} instead of \textt{g++})
 ```bash
 scorep-g++ -o main_executable -fopenmp main.o generate_random_matrix.o matrix_multiply.o
 ```
 - Program Execution
+```bash
 ./main_executable
-- A folder containing profiling data using .cubex and .cfg file is generated.
+```
+- A folder containing profiling data using \texttt{.cubex} and \texttt{.cfg} file is generated.
 
 ## IO profiling with Darshan
 
