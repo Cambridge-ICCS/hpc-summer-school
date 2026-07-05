@@ -558,7 +558,7 @@ Donald Knuth (1974)
 
 ## Example with Score-p
 
-- We introduce a small simple OpenMP [example](https://github.com/niravshah241/cpp_profiler_example/tree/matrix_vector_multiplication). Precisely, we introduce dense-Matrix vector multiplication example, where we implement element wise multiplication.
+- We introduce a small simple OpenMP [example](https://github.com/Cambridge-ICCS/hpc-summer-school/tree/main/example-code/scorep-files). Precisely, we introduce dense-Matrix vector multiplication example, where we implement element wise multiplication.
 - We consider parallelization across row indices using multiple threads.
 - Compilation step (Notice the use of \texttt{scorep-g++} instead of \texttt{g++})
 ```bash
