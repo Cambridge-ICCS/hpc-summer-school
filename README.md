@@ -1,7 +1,4 @@
-# hpc-summer-school-2026
-
-Course slides are provided
-[here](https://cambridge-iccs.github.io/hpc-summer-school/#/title-slide).
+<img src="./images/UCAM_ICCS_Logo.png"  width="600">
 
 ## Introduction to High Performace Computing
 
@@ -10,7 +7,6 @@ This repository contains documentation, resources, and code for the 'Introductio
 [ICCS](https://github.com/Cambridge-ICCS).
 All materials, including slides and videos, are available such that individuals
 can cover the course in their own time.
-
 
 ## Contents
 
