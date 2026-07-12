@@ -556,6 +556,24 @@ Donald Knuth (1974)
 - [HPCToolkit](https://hpctoolkit.org/)
 - [LIKWID](https://github.com/RRZE-HPC/likwid?tab=readme-ov-file)
 
+## Example with Score-p
+
+- We introduce a small simple OpenMP [example](https://github.com/Cambridge-ICCS/hpc-summer-school/tree/main/example-code/scorep-files). Precisely, we introduce dense-Matrix vector multiplication example, where we implement element wise multiplication.
+- We consider parallelization across row indices using multiple threads.
+- Compilation step (Notice the use of \texttt{scorep-g++} instead of \texttt{g++})
+```bash
+scorep-g++ -c -fopenmp main.cpp generate_random_matrix.cpp matrix_multiply.cpp
+```
+- Linking step  (Notice the use of \texttt{scorep-g++} instead of \textt{g++})
+```bash
+scorep-g++ -o main_executable -fopenmp main.o generate_random_matrix.o matrix_multiply.o
+```
+- Program Execution
+```bash
+./main_executable
+```
+- A folder containing profiling data using \texttt{.cubex} and \texttt{.cfg} file is generated.
+
 ## IO profiling with Darshan
 
 ## Green HPC {visibility="hidden"}
