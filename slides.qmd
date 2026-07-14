@@ -229,10 +229,11 @@ A shell script with shell comments that are directives to the sheduler about how
 #!/bin/bash
 #SBATCH --account=TRAINING-CPU 
 #SBATCH --reservation=iccs-summer-school1
+#SBATCH --partition=icelake
 #SBATCH --time=00:02:00
 #SBATCH --job-name=my-first-job
 #SBATCH --nodes=1
-#SBATCH --cores=1
+#SBATCH --ntasks=1
 
 echo "My first job - hooray"
 ```
@@ -304,11 +305,12 @@ To change this you can add an extra directive ``#SBATCH --output=``
 #!/bin/bash
 #SBATCH --account=TRAINING-CPU 
 #SBATCH --reservation=iccs-summer-school2
+#SBATCH --partition=icelake
 #SBATCH --time=00:02:00
 #SBATCH --job-name=array-test
 #SBATCH --partition=icelake
 #SBATCH --nodes=1
-#SBATCH --cores=1
+#SBATCH --ntasks=1
 
 echo "Hello from array member ${SLURM_ARRAY_TASK_ID}"
 ```
