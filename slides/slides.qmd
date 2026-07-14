@@ -19,7 +19,7 @@ authors:
     orcid: 0000-0001-6863-2184
   - name: Tom Meltzer
     orcid: 0000-0003-1740-9550
-    affiliations: Senior Research Software Engineer <br> ICCS - University of Cambridge
+    affiliations: Principal Research Software Engineer <br> ICCS - University of Cambridge
   - name: Nirav Shah
     orcid: 0000-0002-6378-0898
     affiliations: Research Software Engineer <br> ICCS - University of Cambridge
