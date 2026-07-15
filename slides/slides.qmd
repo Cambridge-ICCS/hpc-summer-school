@@ -565,11 +565,11 @@ Donald Knuth (1974)
 
 - We introduce a small simple OpenMP [example](https://github.com/Cambridge-ICCS/hpc-summer-school/tree/main/example-code/scorep-files). Precisely, we introduce dense-Matrix vector multiplication example, where we implement element wise multiplication.
 - We consider parallelization across row indices using multiple threads.
-- Compilation step (Notice the use of \texttt{scorep-g++} instead of \texttt{g++})
+- Compilation step (Notice the use of ``scorep-g++`` instead of ``g++``)
 ```bash
 scorep-g++ -c -fopenmp main.cpp generate_random_matrix.cpp matrix_multiply.cpp
 ```
-- Linking step  (Notice the use of \texttt{scorep-g++} instead of \textt{g++})
+- Linking step  (Notice the use of ``scorep-g++`` instead of ``g++``)
 ```bash
 scorep-g++ -o main_executable -fopenmp main.o generate_random_matrix.o matrix_multiply.o
 ```
